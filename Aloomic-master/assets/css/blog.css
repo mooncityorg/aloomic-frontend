@@ -1,0 +1,224 @@
+.home-banner {
+    padding-top: 200px;
+}
+
+.video-cards-section {
+    padding-top: 140px;
+}
+
+.video-cards .cards-box .video-card img {
+    height: 100%;
+}
+
+.video-cards .cards-box {
+    position: relative;
+}
+
+.video-cards .cards-box:first-child {
+    margin-right: 37.5px;
+    width: calc(50% - 55px);
+}
+
+.video-cards .cards-box:nth-child(2) {
+    margin-left: 37.5px;
+    width: calc(50% - 20px);
+}
+
+.video-card-text a {
+    text-decoration: none;
+    display: block;
+    letter-spacing: 0;
+    color: #fff;
+    width: 117px;
+    height: 117px;
+    border: 1px solid #fff;
+    border-radius: 60px;
+    text-align: center;
+    cursor: pointer;
+    vertical-align: middle;
+    line-height: 117px;
+}
+
+.video-card-text {
+    margin: 0;
+}
+
+.video-cards .cards-box:first-child .video-card:first-child .video-card-text {
+    top: 0;
+    right: 0;
+    left: auto;
+    margin-right: 39px;
+    margin-top: 101px;
+}
+
+.video-cards .cards-box:first-child .video-card:nth-child(2) .video-card-text {
+    margin-top: 83px;
+    margin-left: 50px;
+    top: 0;
+    left: 0;
+}
+
+.video-cards .cards-box:nth-child(2) .video-card:nth-child(1) .video-card-text {
+    right: 0;
+    bottom: 0;
+    margin-right: 76px;
+    margin-bottom: 120px;
+    left: auto;
+}
+
+.video-cards .cards-box:nth-child(2) .video-card:nth-child(2) .video-card-text {
+    bottom: 0;
+    left: 0;
+    margin-bottom: 39px;
+    margin-left: 45px;
+}
+
+.video-cards .cards-box:first-child .video-card:last-child {
+    padding-top: 34px;
+}
+
+.video-cards .cards-box:last-child .video-card:last-child {
+    padding-top: 45px;
+}
+
+.video-cards .cards-box:last-child {
+    margin-top: 73px;
+}
+
+.blog-title {
+    font-family: "Playfair Display";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 88px;
+    line-height: 95px;
+    position: absolute;
+    top: -65px;
+    left: 60px;
+}
+
+.blog-img, .blog-img img {
+    width: 100%;
+}
+
+.home-banner {
+    padding-top: 230px;
+    padding-bottom: 117px;
+}
+
+.blog-title span {
+    background: -webkit-linear-gradient(0.5deg, #fff, #fff4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.blog-details {
+    padding-top: 66px;
+    padding-left: 60px;
+    max-width: 600px;
+    font-family: "Epilogue";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    /* or 158% */
+    letter-spacing: -0.02em;
+    color: #FCFCFC;
+}
+
+.blog-sub-detail .sub-title {
+    padding-top: 53px;
+    padding-bottom: 24px;
+    font-family: "Playfair Display";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 49px;
+    line-height: 65px;
+    letter-spacing: -0.02em;
+    background: -webkit-linear-gradient(0.5deg, #fcfcfc, #fcfcfc00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.next-blog-panel {
+    display: flex;
+    justify-content: space-between;
+}
+
+.next-blog-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.next-blog-info span {
+    padding-top: 53px;
+    padding-bottom: 16px;
+    font-size: 16px;
+    line-height: 108.3%;
+    color: #FFFFFF;
+}
+
+.next-blog-title {
+    font-family: "Playfair Display";
+    font-size: 32px;
+    line-height: 43px;
+    /* identical to box height */
+    letter-spacing: -0.02em;
+    background: -webkit-linear-gradient(0.5deg, #fcfcfc, #fcfcfc00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.next-blog-arrow span {
+    margin-top: 67px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+@media (max-width: 1080px) {
+    .blog-title {
+        font-size: 60px;
+        line-height: 80px;
+    }
+}
+
+@media (max-width: 660px) {
+    .blog-title {
+        position: relative;
+        top: auto;
+        left: auto;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        font-size: 40px;
+        line-height: 45px;
+    }
+    .blog-details {
+        padding: 66px 20px 0;
+    }
+    .next-blog-arrow svg {
+        width: 45px;
+    }
+    .video-cards {
+        flex-direction: column;
+    }
+    .video-cards .cards-box:first-child {
+        margin: auto;
+        width: calc(100% - 60px);
+    }
+    .video-cards .cards-box:nth-child(2) {
+        margin: auto;
+        width: calc(100% - 60px);
+    }
+    .video-card {
+        padding: 0;
+        margin: 24px auto 24px;
+    }
+}
+
+@media (max-width: 460px) {
+    .next-blog-arrow svg {
+        width: 35px;
+    }
+    .next-blog-title {
+        font-size: 24px;
+    }
+}

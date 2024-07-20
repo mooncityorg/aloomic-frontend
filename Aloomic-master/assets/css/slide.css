@@ -1,0 +1,193 @@
+#mixedSlider {
+    background-color: white;
+    position: relative;
+}
+
+#mixedSlider .MS-content {
+    white-space: nowrap;
+    overflow: hidden;
+    margin: 0 5%;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+#mixedSlider .MS-content .item {
+    display: inline-block;
+    width: 30%;
+    position: relative;
+    vertical-align: top;
+    overflow: hidden;
+    margin: 1.5%;
+    white-space: normal;
+    background-color: #383838;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+}
+
+#mixedSlider .MS-content .item:nth-child(1) {
+    transition: transform 0.5s ease-out;
+    transform: scale(1);
+}
+
+#mixedSlider .MS-content .item:nth-child(2) {
+    transition: all 0.5s ease-in-out;
+    transform: scale(1.1);
+}
+
+@media (max-width: 991px) {
+    #mixedSlider .MS-content .item {
+        width: 70%;
+    }
+}
+
+@media (max-width: 767px) {
+    #mixedSlider .MS-content .item {
+        width: 100%;
+    }
+}
+
+#mixedSlider .MS-content .item .imgTitle {
+    position: absolute;
+    z-index: 1;
+    top: 0px;
+}
+
+.topr {
+    position: relative;
+    top: -135px;
+    right: -150px;
+}
+
+.toptop {
+    position: relative;
+    top: -160px;
+    right: -100px;
+}
+
+.bot {
+    position: relative;
+    top: 30px;
+    right: -130px;
+}
+
+#mixedSlider .MS-content .item .imgTitle img {
+    width: 100%;
+}
+
+#mixedSlider .MS-content .item p {
+    font-size: 13px;
+    color: white;
+    padding-bottom: 15px;
+}
+
+#mixedSlider .MS-content .item h2 {
+    font-weight: bold;
+    color: white;
+}
+
+#mixedSlider .MS-content .item a {
+    transition: linear 0.1s;
+}
+
+#mixedSlider .MS-controls button {
+    position: absolute;
+    z-index: 400;
+    outline: 0;
+    top: 40%;
+    transition: 0.15s linear;
+}
+
+#mixedSlider .MS-controls button:hover {
+    color: "";
+}
+
+@media (max-width: 992px) {
+    #mixedSlider .MS-controls button {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 767px) {
+    #mixedSlider .MS-controls button {
+        font-size: 20px;
+    }
+}
+
+#mixedSlider .MS-controls .MS-left {
+    left: 20px;
+}
+
+@media (max-width: 767px) {
+    #mixedSlider .MS-controls .MS-left {
+        left: -10px;
+    }
+}
+
+#mixedSlider .MS-controls .MS-right {
+    right: 35px;
+}
+
+@media (max-width: 767px) {
+    #mixedSlider .MS-controls .MS-right {
+        right: 0px;
+    }
+}
+
+.container #mixedSlider .MS-left {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 3px solid white;
+    background-color: #e44319;
+}
+
+.container #mixedSlider .MS-left i {
+    position: inherit;
+    z-index: 200;
+    font-size: 45px;
+    color: white;
+    top: 3px;
+    left: 16px;
+}
+
+.container #mixedSlider .MS-left:hover {
+    border: 3px solid grey;
+}
+
+.container #mixedSlider .MS-right {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 3px solid white;
+    background-color: #e44319;
+}
+
+.container #mixedSlider .MS-right i {
+    position: inherit;
+    font-size: 45px;
+    color: white;
+    top: 5px;
+    left: 20px;
+}
+
+.container #mixedSlider .MS-right:hover {
+    border: 3px solid grey;
+}
+
+.butonitem {
+    font-weight: bold;
+    border: 1px solid white;
+    padding: 5px 15px;
+    border-radius: 0;
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+    margin-top: 30px;
+}
+
+.butonitem:hover {
+    text-decoration: none;
+    color: white;
+    border: 1px solid grey;
+}

@@ -1,0 +1,45 @@
+*, body, html {
+    padding: 0;
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.container {
+    max-width: 1040px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#device-ruler {
+    width: calc(1040px + 71px);
+    display: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+.p-l-10 {
+    padding-left: 10px;
+}
+
+.m-t-100 {
+    margin-top: 100px;
+}
+
+button {
+    cursor: pointer;
+}
+
+@media (max-width: 1080px) {
+    #device-ruler {
+        width: calc(810px + 71px);
+    }
+}
+
+@media (max-width: 660px) {
+    #device-ruler {
+        width: calc(369px + 71px);
+    }
+}

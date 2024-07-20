@@ -1,0 +1,52 @@
+/* p {
+    color: #2a2d35;
+    font-family: "Helvetica", sans-serif;
+    text-transform: uppercase;
+    font-size: 2.5em;
+    font-weight: bold;
+    margin: 10px 0 0 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 30em;
+} */
+
+/* CSS3 typing Animation */
+
+.typing-word {
+    animation: typing 4s steps(60, end);
+    /* Chrome and Safari Optimisation */
+    -webkit-animation: typing 4s steps(60, end) infinite;
+    /* Firefox Optimisation */
+    -moz-animation: typing 4s steps(60, end) infinite;
+    /* Opera Optimisation */
+    o-animation: typing 4s steps(60, end) infinite;
+}
+
+/* Remaining CSS3 Animation */
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+}
+
+/* Chrome and Safari Optimisation */
+@-webkit-keyframes typing {
+    from {
+        width: 0;
+    }
+}
+
+/* Firefox Optimisation */
+@-moz-keyframes typing {
+    from {
+        width: 0;
+    }
+}
+
+/* Opera Optimisation */
+@-o-keyframes typing {
+    from {
+        width: 0;
+    }
+}

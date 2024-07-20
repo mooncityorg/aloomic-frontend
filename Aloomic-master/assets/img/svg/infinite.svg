@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-2000 -1000 4000 2000" style="background-color:transparent;">
+	<style>
+        .infinite {
+            stroke: #fff;
+            stroke-linecap: round;
+            animation: a 2s linear infinite
+        }
+
+        @keyframes a { to { stroke-dashoffset: 0px } }
+    </style>
+  <path id="inf" fill="none" stroke-width="8%" d="M354-354A500 500 0 1 1 354 354L-354-354A500 500 0 1 0-354 354z"></path>
+    <use xlink:href="#inf" stroke="rgba(255,255,255,0.2)"></use>
+    <use class="infinite" xlink:href="#inf" stroke-dasharray="1570 5143" stroke-dashoffset="6713px"></use>
+</svg>

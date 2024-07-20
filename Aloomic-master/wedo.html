@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aloomic</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/basic.css">
+    <link rel="stylesheet" href="./assets/css/slide.css">
+    <link rel="alternate icon" type="image/png" href="./assets/img/icons/favicon.ico">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link href="./assets/css/hamburgers.min.css" rel="stylesheet">
+    <!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- <script type="text/javascript" src="./assets/js/slide.js"></script> -->
+    <script type="text/javascript" src="./assets/js/function.js"></script>
+</head>
+
+<body>
+    <!-- Header beginning -->
+    <header>
+        <div class="">
+            <div class="display-center header-content">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="./assets/img/logo.png" alt="logo">
+                    </a>
+                </div>
+                <div class="menu-icon">
+                    <!-- <button class="menu-button">
+                        <img src="./assets/img/icons/hamberger.svg" alt="">
+                    </button> -->
+                    <button class="hamburger hamburger--emphatic js-hamburger menu-button">
+                        <span class="hamburger-box">
+                            <span class="hamburger-inner"></span>
+                        </span>
+                    </button>
+                </div>
+                <!-- Nav Header beginning -->
+                <div class="nav-menu">
+                    <!-- <div class="">
+                        <div class="display-center header-content">
+                            <div class="logo">
+                                <a href="index.html">
+                                    <img src="./assets/img/logo.png" alt="logo">
+                                </a>
+                            </div>
+                            <div class="menu-icon">
+                                <button class="menu-button">
+                                    <img src="./assets/img/icons/close.svg" alt="">
+                                </button>
+                            </div>
+                        </div>
+                    </div> -->
+                    <!-- Nav Header content beginning -->
+                    <div class="nav-content container" id="main-menu">
+                        <div class="nav-item">
+                            <a href="index.html"><span>home</span></a>
+                            <div class="menu-thumb hidden">
+                                <img src="./assets/img/thumb1.jpg" alt="" />
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet
+                                    luctus venenatis, lectus magna fringilla urnaffff</p>
+                            </div>
+                        </div>
+                        <div class="nav-item">
+                            <a href="#" id="we-do-menu"><span>what we do</span></a>
+                            <div class="menu-thumb hidden">
+                                <img src="./assets/img/thumb2.jpg" alt="" />
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet
+                                    luctus venenatis, lectus magna fringilla urna</p>
+                            </div>
+                        </div>
+                        <div class="nav-item">
+                            <a href="about.html"><span>about</span></a>
+                            <div class="menu-thumb hidden">
+                                <img src="./assets/img/thumb3.jpg" alt="" />
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet
+                                    luctus venenatis, lectus magna fringilla urna</p>
+                            </div>
+                        </div>
+                        <div class="nav-item">
+                            <a href="portfolio.html"><span>portfolio</span></a>
+                            <div class="menu-thumb hidden">
+                                <img src="./assets/img/thumb1.jpg" alt="" />
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet
+                                    luctus venenatis, lectus magna fringilla urna</p>
+                            </div>
+                        </div>
+                        <div class="nav-item">
+                            <a href="blog.html"><span>blog</span></a>
+                            <div class="menu-thumb hidden">
+                                <img src="./assets/img/thumb2.jpg" alt="" />
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet
+                                    luctus venenatis, lectus magna fringilla urna</p>
+                            </div>
+                        </div>
+                        <div class="nav-item">
+                            <a href="contact.html"><span>contact</span></a>
+                            <div class="menu-thumb hidden">
+                                <img src="./assets/img/thumb3.jpg" alt="" />
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet
+                                    luctus venenatis, lectus magna fringilla urna</p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="nav-content container hidden" id="we-do-submenu">
+                        <div class="nav-item">
+                            <a href="#" class="back-to-mainmenu">
+                                <span>
+                                    <img src="./assets/img/left_arrow.svg" alt="close submenu">
+                                </span>
+                            </a>
+                            <a href="#" class="back-to-mainmenu">
+                                <span>back</span>
+                            </a>
+                        </div>
+                        <div class="nav-item">
+                            <a href="wedo.html">
+                                <span>Branding</span>
+                            </a>
+                            <a href="wedo.html">
+                                <span>Design and UI/UX</span>
+                            </a>
+                        </div>
+                        <div class="nav-item">
+                            <a href="wedo.html">
+                                <span>Web Development</span>
+                            </a>
+                            <a href="wedo.html">
+                                <span>Digital Marketing</span>
+                            </a>
+                        </div>
+                        <div class="nav-item">
+                            <a href="wedo.html">
+                                <span>Web Design by Platform</span>
+                            </a>
+                            <a href="wedo.html">
+                                <span>Support maintenance</span>
+                            </a>
+                        </div>
+                        <div class="nav-item">
+                            <a href="wedo.html">
+                                <span>Mobile Application Development</span>
+                            </a>
+                            <a href="wedo.html">
+                                <span>Augmented maintenance</span>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Nav Header content end-->
+                </div>
+                <!-- Nav Header end -->
+            </div>
+        </div>
+    </header>
+    <!-- Header End -->
+
+    <!-- Main contents beginning -->
+    <div class="full-screen">
+        <!-- Home banner beginning -->
+        <div class="home-banner">
+            <div class="container">
+                <h1 class="text-1">
+                    <span class="explosion-icon">
+                        <img src="./assets/img/explosion.svg" alt="">
+                    </span> WHAT WE DO
+                </h1>
+                <h1 class="text-1-italic">AND LOVE</h1>
+                <p class="what-we-do-subdescription" style="margin-left: 66px;">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis,
+                    lectus magna fringilla urna, porttitor rhoncus dolor
+                </p>
+
+            </div>
+        </div>
+        <!-- Home banner end -->
+        <div class="what-we-do-detail-panel">
+            <div class="container">
+                <div class="we-do-cardbox">
+                    <div class="we-do-card">
+                        <div class="we-do-detail-title">
+                            <span>Web Development</span>
+                            <span>01</span>
+                        </div>
+                        <div class="we-do-detail">
+                            <div class="we-do-detail-txt">
+                                <div class="detail">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet
+                                    lucts
+                                    venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim
+                                    praesent elementum facilisis leo, vel fringilla est ullamcorper eget
+                                </div>
+                                <div class="etc">
+                                    <div class="col-6">
+                                        <p><a href="./services.html">Responsive development</a></p>
+                                        <p><a href="./services.html">Mobile app development</a></p>
+                                        <p><a href="./services.html">Landing page</a></p>
+                                        <p><a href="./services.html">React Native</a></p>
+
+                                    </div>
+                                    <div class="col-6">
+                                        <p><a href="./services.html">Responsive development</a></p>
+                                        <p><a href="./services.html">Mobile app development</a></p>
+                                        <p><a href="./services.html">Landing page</a></p>
+                                        <p><a href="./services.html">React Native</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="we-do-detail-img">
+                                <img src="./assets/img/wedo.jpg">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="we-do-card reverse">
+                        <div class="we-do-detail-title">
+                            <span>Web Design by Platform</span>
+                            <span>02</span>
+                        </div>
+                        <div class="we-do-detail">
+                            <div class="we-do-detail-txt">
+                                <div class="detail">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet
+                                    lucts
+                                    venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim
+                                    praesent elementum facilisis leo, vel fringilla est ullamcorper eget
+                                </div>
+                                <div class="etc">
+                                    <div class="col-6">
+                                        <p><a href="./services.html">Responsive development</a></p>
+                                        <p><a href="./services.html">Mobile app development</a></p>
+                                        <p><a href="./services.html">Landing page</a></p>
+                                        <p><a href="./services.html">React Native</a></p>
+
+                                    </div>
+                                    <div class="col-6">
+                                        <p><a href="./services.html">Responsive development</a></p>
+                                        <p><a href="./services.html">Mobile app development</a></p>
+                                        <p><a href="./services.html">Landing page</a></p>
+                                        <p><a href="./services.html">React Native</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="we-do-detail-img">
+                                <img src="./assets/img/wedo.jpg">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="we-do-card">
+                        <div class="we-do-detail-title">
+                            <span>Mobile Application Development</span>
+                            <span>03</span>
+                        </div>
+                        <div class="we-do-detail">
+                            <div class="we-do-detail-txt">
+                                <div class="detail">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet
+                                    lucts
+                                    venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim
+                                    praesent elementum facilisis leo, vel fringilla est ullamcorper eget
+                                </div>
+                                <div class="etc">
+                                    <div class="col-6">
+                                        <p><a href="./services.html">Responsive development</a></p>
+                                        <p><a href="./services.html">Mobile app development</a></p>
+                                        <p><a href="./services.html">Landing page</a></p>
+                                        <p><a href="./services.html">React Native</a></p>
+
+                                    </div>
+                                    <div class="col-6">
+                                        <p><a href="./services.html">Responsive development</a></p>
+                                        <p><a href="./services.html">Mobile app development</a></p>
+                                        <p><a href="./services.html">Landing page</a></p>
+                                        <p><a href="./services.html">React Native</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="we-do-detail-img">
+                                <img src="./assets/img/wedo.jpg">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="we-do-card reverse">
+                        <div class="we-do-detail-title">
+                            <span>Branding</span>
+                            <span>04</span>
+                        </div>
+                        <div class="we-do-detail">
+                            <div class="we-do-detail-txt">
+                                <div class="detail">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet
+                                    lucts
+                                    venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim
+                                    praesent elementum facilisis leo, vel fringilla est ullamcorper eget
+                                </div>
+                                <div class="etc">
+                                    <div class="col-6">
+                                        <p><a href="./services.html">Responsive development</a></p>
+                                        <p><a href="./services.html">Mobile app development</a></p>
+                                        <p><a href="./services.html">Landing page</a></p>
+                                        <p><a href="./services.html">React Native</a></p>
+
+                                    </div>
+                                    <div class="col-6">
+                                        <p><a href="./services.html">Responsive development</a></p>
+                                        <p><a href="./services.html">Mobile app development</a></p>
+                                        <p><a href="./services.html">Landing page</a></p>
+                                        <p><a href="./services.html">React Native</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="we-do-detail-img">
+                                <img src="./assets/img/wedo.jpg">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="we-do-card">
+                        <div class="we-do-detail-title">
+                            <span>Digital Marketing</span>
+                            <span>05</span>
+                        </div>
+                        <div class="we-do-detail">
+                            <div class="we-do-detail-txt">
+                                <div class="detail">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet
+                                    lucts
+                                    venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim
+                                    praesent elementum facilisis leo, vel fringilla est ullamcorper eget
+                                </div>
+                                <div class="etc">
+                                    <div class="col-6">
+                                        <p><a href="./services.html">Responsive development</a></p>
+                                        <p><a href="./services.html">Mobile app development</a></p>
+                                        <p><a href="./services.html">Landing page</a></p>
+                                        <p><a href="./services.html">React Native</a></p>
+
+                                    </div>
+                                    <div class="col-6">
+                                        <p><a href="./services.html">Responsive development</a></p>
+                                        <p><a href="./services.html">Mobile app development</a></p>
+                                        <p><a href="./services.html">Landing page</a></p>
+                                        <p><a href="./services.html">React Native</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="we-do-detail-img">
+                                <img src="./assets/img/wedo.jpg">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="we-do-card reverse">
+                        <div class="we-do-detail-title">
+                            <span>Design and UI/UX</span>
+                            <span>06</span>
+                        </div>
+                        <div class="we-do-detail">
+                            <div class="we-do-detail-txt">
+                                <div class="detail">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet
+                                    lucts
+                                    venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim
+                                    praesent elementum facilisis leo, vel fringilla est ullamcorper eget
+                                </div>
+                                <div class="etc">
+                                    <div class="col-6">
+                                        <p><a href="./services.html">Responsive development</a></p>
+                                        <p><a href="./services.html">Mobile app development</a></p>
+                                        <p><a href="./services.html">Landing page</a></p>
+                                        <p><a href="./services.html">React Native</a></p>
+
+                                    </div>
+                                    <div class="col-6">
+                                        <p><a href="./services.html">Responsive development</a></p>
+                                        <p><a href="./services.html">Mobile app development</a></p>
+                                        <p><a href="./services.html">Landing page</a></p>
+                                        <p><a href="./services.html">React Native</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="we-do-detail-img">
+                                <img src="./assets/img/wedo.jpg">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="we-do-card">
+                        <div class="we-do-detail-title">
+                            <span>Augmented Reality</span>
+                            <span>07</span>
+                        </div>
+                        <div class="we-do-detail">
+                            <div class="we-do-detail-txt">
+                                <div class="detail">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet
+                                    lucts
+                                    venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim
+                                    praesent elementum facilisis leo, vel fringilla est ullamcorper eget
+                                </div>
+                                <div class="etc">
+                                    <div class="col-6">
+                                        <p><a href="./services.html">Responsive development</a></p>
+                                        <p><a href="./services.html">Mobile app development</a></p>
+                                        <p><a href="./services.html">Landing page</a></p>
+                                        <p><a href="./services.html">React Native</a></p>
+
+                                    </div>
+                                    <div class="col-6">
+                                        <p><a href="./services.html">Responsive development</a></p>
+                                        <p><a href="./services.html">Mobile app development</a></p>
+                                        <p><a href="./services.html">Landing page</a></p>
+                                        <p><a href="./services.html">React Native</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="we-do-detail-img">
+                                <img src="./assets/img/wedo.jpg">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="we-do-card reverse">
+                        <div class="we-do-detail-title">
+                            <span>Support and maintenance</span>
+                            <span>08</span>
+                        </div>
+                        <div class="we-do-detail">
+                            <div class="we-do-detail-txt">
+                                <div class="detail">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet
+                                    lucts
+                                    venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim
+                                    praesent elementum facilisis leo, vel fringilla est ullamcorper eget
+                                </div>
+                                <div class="etc">
+                                    <div class="col-6">
+                                        <p><a href="./services.html">Responsive development</a></p>
+                                        <p><a href="./services.html">Mobile app development</a></p>
+                                        <p><a href="./services.html">Landing page</a></p>
+                                        <p><a href="./services.html">React Native</a></p>
+
+                                    </div>
+                                    <div class="col-6">
+                                        <p><a href="./services.html">Responsive development</a></p>
+                                        <p><a href="./services.html">Mobile app development</a></p>
+                                        <p><a href="./services.html">Landing page</a></p>
+                                        <p><a href="./services.html">React Native</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="we-do-detail-img">
+                                <img src="./assets/img/wedo.jpg">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="floating-panel">
+            <div class="">
+                <marquee behavior="scroll" direction="left" scrollamount="5" scrolldelay=0 style="position: relative;">
+                    <span>lets work together</span>
+                    <span class="spot"></span>
+                    <span>lets work together</span>
+                </marquee>
+            </div>
+
+        </div>
+    </div>
+    <footer>
+        <div class="">
+            <div class="footer">
+                <div class="footer-section1">
+                    <div class="icon-wrapper">
+                        <img src="./assets/img/icon.png">
+                    </div>
+                    <div class="navigation-wrapper">
+                        <div class="list">
+                            <a>
+                                Navigation
+                            </a>
+                            <a href="./index.html">
+                                Home
+                            </a>
+                            <a href="./about.html">
+                                About
+                            </a>
+                            <a href="./services.html">
+                                Services
+                            </a>
+                            <a href="./blog.html">
+                                Blog
+                            </a>
+                            <a href="./contact.html">
+                                Contact
+                            </a>
+                        </div>
+                    </div>
+                    <div class="contact-wrapper">
+                        <div class="list">
+                            <a>
+                                Tell us your needs
+                            </a>
+                            <a href="#">
+                                email@gmail.com
+                            </a>
+                            <a href="#">
+                                +7 (916) 344-55-22
+                            </a>
+                            <a href="#">
+                                New York 11223
+                                <br />USA, NY
+                            </a>
+                        </div>
+                    </div>
+                    <div class="services-wrapper">
+                        <div class="list">
+                            <a>Services</a>
+                            <a href="./services.html">Web Development</a>
+                            <a href="./services.html">Web Design by Platform</a>
+                            <a href="./services.html">Mobile Application Development</a>
+                            <a href="./services.html">Branding</a>
+                            <a href="./services.html">Digital Marketing</a>
+                            <a href="./services.html">Design and UI/UX</a>
+                            <a href="./services.html">Augmented Reality</a>
+                            <a href="./services.html">Support and maintenance</a>
+                        </div>
+                    </div>
+                    <div class="email-input-wrapper">
+                        <p>Sign up to newsletter</p>
+                        <div class="input-section">
+
+                            <input type="email" placeholder="YOUR EMAIL">
+                            <span>
+                                <img src="./assets/img/right_arrow.svg">
+                            </span>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="footer-section2">
+                    <div class="section1">
+                        <span><a href="#">Behance</a></span>
+                        <span><a href="#">Dribble</a></span>
+                        <span><a href="#">Pinterest</a></span>
+                    </div>
+                    <div class="section2">
+                        <span><a href="#">terms</a></span>
+                        <span><a href="#">privacy</a></span>
+                        <span><a href="#">policy</a></span>
+                    </div>
+                    <div class="section3">
+                        <span>copyright 2021</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+    <span id="device-ruler"></span>
+    <!-- Main contents end -->
+</body>
+
+</html>

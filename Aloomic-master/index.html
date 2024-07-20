@@ -1,0 +1,814 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aloomic</title>
+
+    <link rel="alternate icon" type="image/png" href="./assets/img/icons/favicon.ico">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+        <link rel='stylesheet' href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+    <link href="./assets/css/hamburgers.min.css" rel="stylesheet">
+    <link href="https://unpkg.com/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/basic.css">
+    <link rel="stylesheet" href="./assets/css/slide.css">
+
+
+</head>
+
+<body>
+    <!-- Header beginning -->
+    <header>
+        <div class="">
+            <div class="display-center header-content">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="./assets/img/logo.png" alt="logo">
+                    </a>
+                </div>
+                <div class="menu-icon">
+                    <!-- <button class="menu-button">
+                        <img src="./assets/img/icons/hamberger.svg" alt="">
+                    </button> -->
+                    <button class="hamburger hamburger--emphatic js-hamburger menu-button">
+                        <span class="hamburger-box">
+                            <span class="hamburger-inner"></span>
+                        </span>
+                    </button>
+                </div>
+                <!-- Nav Header beginning -->
+                <div class="nav-menu">
+                    <!-- <div class="">
+                        <div class="display-center header-content">
+                            <div class="logo">
+                                <a href="index.html">
+                                    <img src="./assets/img/logo.png" alt="logo">
+                                </a>
+                            </div>
+                            <div class="menu-icon">
+                                <button class="menu-button">
+                                    <img src="./assets/img/icons/close.svg" alt="">
+                                </button>
+                            </div>
+                        </div>
+                    </div> -->
+                    <!-- Nav Header content beginning -->
+                    <div class="nav-content container" id="main-menu">
+                        <div class="nav-item">
+                            <a href="index.html"><span>home</span></a>
+                            <div class="menu-thumb hidden">
+                                <img src="./assets/img/thumb1.jpg" alt="" />
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet
+                                    luctus venenatis, lectus magna fringilla urnaffff</p>
+                            </div>
+                        </div>
+                        <div class="nav-item">
+                            <a href="#" id="we-do-menu"><span>what we do</span></a>
+                            <div class="menu-thumb hidden">
+                                <img src="./assets/img/thumb2.jpg" alt="" />
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet
+                                    luctus venenatis, lectus magna fringilla urna</p>
+                            </div>
+                        </div>
+                        <div class="nav-item">
+                            <a href="about.html"><span>about</span></a>
+                            <div class="menu-thumb hidden">
+                                <img src="./assets/img/thumb3.jpg" alt="" />
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet
+                                    luctus venenatis, lectus magna fringilla urna</p>
+                            </div>
+                        </div>
+                        <div class="nav-item">
+                            <a href="portfolio.html"><span>portfolio</span></a>
+                            <div class="menu-thumb hidden">
+                                <img src="./assets/img/thumb1.jpg" alt="" />
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet
+                                    luctus venenatis, lectus magna fringilla urna</p>
+                            </div>
+                        </div>
+                        <div class="nav-item">
+                            <a href="blog.html"><span>blog</span></a>
+                            <div class="menu-thumb hidden">
+                                <img src="./assets/img/thumb2.jpg" alt="" />
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet
+                                    luctus venenatis, lectus magna fringilla urna</p>
+                            </div>
+                        </div>
+                        <div class="nav-item">
+                            <a href="contact.html"><span>contact</span></a>
+                            <div class="menu-thumb hidden">
+                                <img src="./assets/img/thumb3.jpg" alt="" />
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet
+                                    luctus venenatis, lectus magna fringilla urna</p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="nav-content container hidden" id="we-do-submenu">
+                        <div class="nav-item">
+                            <a href="#" class="back-to-mainmenu">
+                                <span>
+                                    <img src="./assets/img/left_arrow.svg" alt="close submenu">
+                                </span>
+                            </a>
+                            <a href="#" class="back-to-mainmenu">
+                                <span>back</span>
+                            </a>
+                        </div>
+                        <div class="nav-item">
+                            <a href="wedo.html">
+                                <span>Branding</span>
+                            </a>
+                            <a href="wedo.html">
+                                <span>Design and UI/UX</span>
+                            </a>
+                        </div>
+                        <div class="nav-item">
+                            <a href="wedo.html">
+                                <span>Web Development</span>
+                            </a>
+                            <a href="wedo.html">
+                                <span>Digital Marketing</span>
+                            </a>
+                        </div>
+                        <div class="nav-item">
+                            <a href="wedo.html">
+                                <span>Web Design by Platform</span>
+                            </a>
+                            <a href="wedo.html">
+                                <span>Support maintenance</span>
+                            </a>
+                        </div>
+                        <div class="nav-item">
+                            <a href="wedo.html">
+                                <span>Mobile Application Development</span>
+                            </a>
+                            <a href="wedo.html">
+                                <span>Augmented maintenance</span>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Nav Header content end-->
+                </div>
+                <!-- Nav Header end -->
+            </div>
+        </div>
+    </header>
+    <!-- Header End -->
+
+    <!-- Main contents beginning -->
+    <div class="full-screen">
+        <!-- Home banner beginning -->
+        <div class="home-banner">
+            <div class="container">
+                <h1 class="text-1">
+                    <span class="explosion-icon">
+                        <img src="./assets/img/explosion.svg" alt="">
+                    </span> WE ARE ALOOMIC
+                </h1>
+                <h1 class="text-1-italic p-l-10">A CREATIVE AGENCY</h1>
+                <div class="circle-mark-wrapper">
+                    <div class="circle-mark">
+                        <svg width="87" height="87" viewBox="0 0 174 174" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+
+                            <path
+                                d="M83.4712 11.7925V0H86.4293C87.4633 0 88.3614 0.237182 89.1236 0.711548C89.8911 1.18591 90.4827 1.86548 90.8985 2.75026C91.3195 3.6297 91.5301 4.67703 91.5301 5.89226C91.5301 7.10749 91.3195 8.15749 90.8985 9.04226C90.4827 9.92171 89.8911 10.6013 89.1236 11.081C88.3614 11.5553 87.4633 11.7925 86.4293 11.7925H83.4712ZM86.2694 1.19924H84.8463V10.5933H86.2694C87.0263 10.5933 87.6952 10.4041 88.2761 10.0256C88.8624 9.64189 89.3208 9.09823 89.6513 8.39468C89.9817 7.69112 90.1469 6.85698 90.1469 5.89226C90.1469 4.92221 89.9817 4.08807 89.6513 3.38985C89.3208 2.6863 88.8624 2.14531 88.2761 1.76688C87.6952 1.38845 87.0263 1.19924 86.2694 1.19924Z"
+                                fill="white" />
+                            <path
+                                d="M108.005 13.5128L107.728 14.6797L101.458 13.1936L104.178 1.71899L110.448 3.20504L110.172 4.37198L105.231 3.20115L104.291 7.16866L108.367 8.13482L108.091 9.3017L104.015 8.3356L103.065 12.342L108.005 13.5128Z"
+                                fill="white" />
+                            <path
+                                d="M120.328 19.8998C119.237 19.352 118.515 18.6642 118.161 17.8364C117.815 17.0064 117.904 16.0673 118.431 15.0195L118.675 14.5336L119.897 15.1472L119.663 15.6116C119.298 16.3404 119.223 16.9623 119.442 17.4776C119.663 17.9881 120.138 18.4264 120.866 18.7923C121.619 19.1703 122.253 19.3276 122.767 19.2641C123.282 19.2006 123.685 18.8807 123.974 18.3044C124.178 17.8995 124.234 17.5076 124.144 17.1284C124.061 16.7469 123.871 16.3652 123.574 15.9833C123.279 15.5966 122.912 15.1943 122.472 14.7764C121.976 14.3011 121.568 13.8094 121.244 13.3011C120.926 12.7952 120.735 12.2729 120.671 11.734C120.615 11.1929 120.734 10.6293 121.028 10.0435C121.459 9.18614 122.096 8.68315 122.94 8.53445C123.784 8.3858 124.702 8.56024 125.692 9.0578C126.745 9.58642 127.46 10.2527 127.838 11.0567C128.215 11.8607 128.153 12.7628 127.651 13.763L127.382 14.2988L126.16 13.6853L126.404 13.1994C126.753 12.504 126.812 11.9166 126.582 11.437C126.354 10.9528 125.881 10.53 125.161 10.1688C124.471 9.82195 123.876 9.67548 123.378 9.72942C122.88 9.78336 122.492 10.0866 122.214 10.6391C122.006 11.0535 121.948 11.4538 122.04 11.8401C122.14 12.2241 122.342 12.6118 122.646 13.0032C122.953 13.3899 123.321 13.7982 123.749 14.228C124.27 14.7462 124.689 15.2487 125.005 15.7355C125.328 16.22 125.512 16.7149 125.557 17.2203C125.606 17.7281 125.483 18.2749 125.189 18.8608C124.749 19.7372 124.098 20.2664 123.237 20.4484C122.379 20.6257 121.409 20.4427 120.328 19.8998Z"
+                                fill="white" />
+                            <path d="M134.825 29.2262L142.405 20.1926L143.434 21.056L135.854 30.0896L134.825 29.2262Z"
+                                fill="white" />
+                            <path
+                                d="M147.11 42.5672C146.585 41.8615 146.3 41.0769 146.255 40.2135C146.21 39.35 146.422 38.478 146.889 37.5981C147.357 36.7181 148.1 35.8994 149.118 35.1421C150.135 34.3846 151.134 33.91 152.114 33.7184C153.095 33.5268 153.997 33.5828 154.821 33.8863C155.652 34.1909 156.342 34.7109 156.889 35.4464C157.335 36.0449 157.607 36.6296 157.706 37.1999C157.813 37.7718 157.799 38.3107 157.664 38.8165C157.536 39.3234 157.333 39.7737 157.055 40.1671C156.78 40.5573 156.483 40.8717 156.162 41.1105L156.085 41.1681L155.293 40.1031L155.37 40.0461C155.716 39.7881 155.997 39.4561 156.213 39.0494C156.429 38.6433 156.523 38.1939 156.496 37.7025C156.473 37.2079 156.271 36.7042 155.889 36.191C155.503 35.6739 155.011 35.3062 154.41 35.0889C153.813 34.8757 153.133 34.8541 152.369 35.0241C151.613 35.1952 150.802 35.602 149.939 36.2453C149.058 36.9009 148.422 37.5634 148.03 38.2339C147.643 38.9007 147.465 39.5451 147.496 40.1666C147.531 40.7854 147.738 41.3487 148.117 41.8578C148.496 42.3662 148.893 42.718 149.311 42.912C149.731 43.1108 150.138 43.203 150.533 43.1886C150.931 43.1705 151.278 43.0922 151.573 42.9525L152.567 42.2122L150.843 39.8974L151.761 39.2146L154.219 42.5171L149.75 45.8446L149.143 45.0301L150.152 44.1896C150.063 44.2029 149.914 44.2045 149.706 44.1928C149.498 44.1816 149.252 44.1283 148.969 44.0334C148.689 43.9428 148.387 43.7824 148.063 43.5522C147.742 43.3187 147.425 42.9904 147.11 42.5672Z"
+                                fill="white" />
+                            <path
+                                d="M154.613 54.8469L154.087 53.6279L164.915 48.9573L165.799 51.0056L157.844 59.7739L167.74 55.5057L168.266 56.7241L157.438 61.3947L156.542 59.3171L164.465 50.5968L154.613 54.8469Z"
+                                fill="white" />
+                            <path
+                                d="M161.761 87.2759L173.377 91.204L173.253 93.327L161.261 95.856L161.343 94.451L164.512 93.8109L164.752 89.6925L161.68 88.6803L161.761 87.2759ZM165.93 90.0816L165.728 93.5615L172.397 92.2119L165.93 90.0816Z"
+                                fill="white" />
+                            <path
+                                d="M159.199 105.883L159.58 104.611L170.877 107.993L170.237 110.13L158.507 111.734L168.831 114.825L168.451 116.096L157.154 112.714L157.803 110.547L169.477 108.96L159.199 105.883Z"
+                                fill="white" />
+                            <path
+                                d="M153.3 121.223L163.513 127.12L162.034 129.681C161.517 130.577 160.862 131.236 160.07 131.659C159.276 132.087 158.391 132.259 157.418 132.177C156.445 132.102 155.433 131.761 154.381 131.153C153.328 130.545 152.524 129.838 151.968 129.031C151.414 128.231 151.122 127.379 151.09 126.474C151.06 125.577 151.304 124.681 151.821 123.785L153.3 121.223ZM161.075 128.943L161.786 127.711L153.651 123.014L152.94 124.247C152.561 124.902 152.391 125.576 152.428 126.268C152.467 126.968 152.709 127.636 153.153 128.274C153.597 128.912 154.237 129.473 155.072 129.955C155.912 130.44 156.717 130.714 157.487 130.777C158.262 130.842 158.959 130.716 159.58 130.398C160.198 130.084 160.697 129.599 161.075 128.943Z"
+                                fill="white" />
+                            <path
+                                d="M130.716 147.395L137.196 157.247L134.725 158.873C133.861 159.441 132.98 159.737 132.082 159.759C131.18 159.784 130.312 159.541 129.479 159.031C128.644 158.528 127.893 157.768 127.225 156.753C126.557 155.737 126.156 154.744 126.022 153.774C125.886 152.811 126.006 151.918 126.384 151.095C126.761 150.28 127.38 149.588 128.244 149.02L130.716 147.395ZM134.199 157.783L135.388 157.001L130.226 149.152L129.037 149.934C128.404 150.35 127.95 150.876 127.672 151.511C127.393 152.154 127.309 152.86 127.419 153.629C127.53 154.399 127.85 155.187 128.38 155.993C128.913 156.803 129.51 157.409 130.17 157.811C130.833 158.217 131.513 158.417 132.21 158.411C132.904 158.408 133.567 158.199 134.199 157.783Z"
+                                fill="white" />
+                            <path
+                                d="M109.273 159.439L108.863 158.312L114.918 156.108L118.951 167.189L112.896 169.393L112.486 168.267L117.256 166.53L115.862 162.699L111.925 164.132L111.515 163.004L115.451 161.572L114.043 157.703L109.273 159.439Z"
+                                fill="white" />
+                            <path
+                                d="M95.9125 160.919L100.473 172.323L98.9879 172.496L95.0741 162.288L93.6516 173.12L92.1592 173.294L93.9351 161.149L95.9125 160.919Z"
+                                fill="white" />
+                            <path
+                                d="M74.2233 161.786L74.3629 160.595L80.7631 161.343L79.3938 173.056L72.9937 172.308L73.1328 171.117L78.1754 171.706L78.6487 167.656L74.4876 167.17L74.6267 165.979L78.7878 166.465L79.2659 162.375L74.2233 161.786Z"
+                                fill="white" />
+                            <path
+                                d="M63.299 157.792L59.2653 168.873L57.9808 168.406L61.6041 158.451L57.2314 156.86L57.6419 155.733L63.299 157.792Z"
+                                fill="white" />
+                            <path
+                                d="M45.287 148.79C46.0487 149.29 46.5971 149.935 46.9335 150.724C47.2623 151.514 47.3465 152.399 47.1872 153.379C47.0278 154.359 46.5966 155.383 45.8936 156.452C45.1879 157.525 44.4193 158.324 43.5889 158.85C42.7542 159.372 41.9116 159.635 41.0614 159.637C40.2086 159.644 39.4017 159.397 38.64 158.896C37.8741 158.392 37.3251 157.747 36.9936 156.962C36.6546 156.177 36.5619 155.3 36.7159 154.329C36.8694 153.358 37.299 152.336 38.0047 151.263C38.7077 150.194 39.4795 149.394 40.3206 148.863C41.1568 148.328 42.0027 148.055 42.8587 148.044C43.7115 148.037 44.5211 148.286 45.287 148.79ZM44.6107 149.818C43.7866 149.276 42.8971 149.17 41.9409 149.498C40.982 149.831 40.0573 150.674 39.1672 152.028C38.2739 153.386 37.8725 154.564 37.9631 155.561C38.0532 156.558 38.5063 157.325 39.3212 157.861C40.1314 158.394 41.0145 158.506 41.9707 158.197C42.9221 157.885 43.8447 157.05 44.738 155.692C45.6281 154.338 46.0343 153.153 45.9554 152.138C45.8691 151.125 45.4208 150.351 44.6107 149.818Z"
+                                fill="white" />
+                            <path
+                                d="M33.7792 139.577L34.7174 140.571L26.1398 148.664L23.8685 146.256C23.243 145.593 22.8477 144.926 22.6824 144.254C22.5134 143.586 22.5338 142.947 22.7438 142.338C22.9538 141.73 23.3128 141.186 23.8207 140.707C24.3285 140.228 24.9037 139.898 25.5462 139.717C26.185 139.532 26.8447 139.535 27.5253 139.729C28.1984 139.922 28.8403 140.342 29.4511 140.989L30.7843 142.403L33.7792 139.577ZM24.8559 145.556L26.0739 146.846L29.912 143.226L28.694 141.935C28.0357 141.237 27.3635 140.885 26.6773 140.881C25.9874 140.88 25.3497 141.155 24.7643 141.707C24.175 142.263 23.8748 142.865 23.8634 143.514C23.8484 144.157 24.1793 144.839 24.8559 145.556Z"
+                                fill="white" />
+                            <path
+                                d="M10.0224 127.023L8.84717 124.987L19.0598 119.091L19.7074 120.213L10.5749 125.485L21.1904 122.781L22.1658 124.471L14.5174 132.33L23.6569 127.053L24.3044 128.175L14.0918 134.071L12.9166 132.036L20.7098 124.204L10.0224 127.023Z"
+                                fill="white" />
+                            <path
+                                d="M12.8394 104.874L13.9882 104.53L15.8364 110.703L4.53927 114.085L2.69116 107.912L3.84003 107.568L5.29607 112.431L9.20217 111.262L8.00064 107.249L9.14951 106.905L10.351 110.918L14.2954 109.737L12.8394 104.874Z"
+                                fill="white" />
+                            <path
+                                d="M12.1872 93.3712L12.2644 94.6962L0.491794 95.3822L0.362116 93.1553L10.8361 87.6356L0.0771239 88.2624L0 86.9374L11.7725 86.252L11.9041 88.5108L1.47618 93.9953L12.1872 93.3712Z"
+                                fill="white" />
+                            <path
+                                d="M3.37766 67.5773L2.84034 70.6244L13.2727 72.4637L13.0367 73.8026L2.60434 71.9627L2.06846 75.0018L0.887451 74.794L2.19659 67.3694L3.37766 67.5773Z"
+                                fill="white" />
+                            <path
+                                d="M24.5 44.9624L16.9536 35.2976L18.2236 33.5918L29.6323 38.0687L28.792 39.197L25.7929 37.9909L23.3294 41.3002L25.3402 43.8335L24.5 44.9624ZM22.5584 40.3275L24.6399 37.5314L18.3261 34.9937L22.5584 40.3275Z"
+                                fill="white" />
+                            <path
+                                d="M36.8646 30.8239L35.8476 31.677L28.2676 22.6434L29.9763 21.2096L40.6579 26.3152L33.7306 18.0594L34.7473 17.2063L42.3272 26.2399L40.5939 27.6943L29.9677 22.6049L36.8646 30.8239Z"
+                                fill="white" />
+                            <path
+                                d="M50.2235 21.2485L44.9309 10.7104L47.5746 9.38272C48.4988 8.91869 49.4075 8.72756 50.3014 8.80943C51.2005 8.88885 52.0341 9.2306 52.8027 9.8347C53.5734 10.4316 54.2317 11.2731 54.7775 12.359C55.3227 13.445 55.6057 14.4778 55.6265 15.4574C55.6494 16.4299 55.4261 17.3027 54.9555 18.0759C54.487 18.8418 53.7909 19.4569 52.8672 19.9209L50.2235 21.2485ZM47.97 10.5262L46.6983 11.1648L50.9143 19.5597L52.186 18.921C52.8624 18.5813 53.3751 18.112 53.7243 17.5131C54.076 16.9071 54.2418 16.2155 54.2215 15.4385C54.2008 14.6615 53.9742 13.8419 53.5414 12.9798C53.106 12.1129 52.5836 11.4417 51.975 10.966C51.3642 10.4856 50.7118 10.2079 50.0178 10.1328C49.3292 10.0554 48.6464 10.1865 47.97 10.5262Z"
+                                fill="white" />
+                            <defs>
+                                <clipPath id="clip0_2_5">
+                                    <rect width="38" height="57.8881" fill="white"
+                                        transform="translate(106 116) rotate(-180)" />
+                                </clipPath>
+                            </defs>
+                        </svg>
+                    </div>
+                    <div class="circle-mark-reverse" id="scroll_value">
+                        <span>0%</span>
+                    </div>
+                </div>
+            </div>
+            <div class="stick-note v-text">
+                <span>Made with</span>
+                <span><i class="fa-heart fa"></i></span>
+            </div>
+        </div>
+        <!-- Home banner end -->
+
+        <!-- Watch our showreel beginning -->
+        <div class="showreel-section">
+            <div class="container">
+                <div class="section-title">
+                    <h2 class="text-2">
+                        <span>
+                            <img src="./assets/img/explosion.svg" alt="">
+                        </span> Watch our
+                    </h2>
+                    <h2 class="text-2 text-gradient">showreel</h2>
+                </div>
+                <div class="visible-video" onclick="playPause()">
+                    <button class="play-button">
+                        <img src="./assets/img/play-icon.svg" alt="" />
+                    </button>
+                    <video id="vid">
+                        <source src="https://nimmobay.com/wp-content/uploads/2020/05/Nimmo-Adventure-2_720.mp4"
+                            type="video/mp4">
+                    </video>
+                </div>
+            </div>
+        </div>
+        <!-- Watch our showreel end -->
+        <!-- Video cards section beginning -->
+        <div class="video-cards-section">
+            <div class="container">
+                <div class="video-cards">
+                    <div class="cards-box">
+                        <div class="video-card">
+                            <div class="video-card-text">
+                                <p>Branding, UI/UX</p>
+                                <h3>Le Studio</h3>
+                            </div>
+                            <span class="imgwrapper">
+                                <span class="card-gradient"></span>
+                                <img src="./assets/img/card1.jpg" alt="" />
+                            </span>
+                        </div>
+                        <div class="video-card">
+                            <div class="video-card-text">
+                                <p>Branding, UI/UX</p>
+                                <h3>Brouilles</h3>
+                            </div>
+                            <span class="imgwrapper">
+                                <span class="card-gradient"></span>
+                                <img src="./assets/img/card2.jpg" alt="" />
+                            </span>
+                        </div>
+                        <div class="video-card">
+                            <div class="video-card-text">
+                                <p>Branding, UI/UX</p>
+                                <h3>Brouilles</h3>
+                            </div>
+                            <span class="imgwrapper">
+                                <span class="card-gradient"></span>
+                                <img src="./assets/img/card2.jpg" alt="" />
+                            </span>
+                        </div>
+                    </div>
+                    <div class="cards-box">
+                        <div class="video-card">
+                            <div class="video-card-text">
+                                <p>Brading, UI/UX</p>
+                                <h3>Le Studio</h3>
+                            </div>
+                            <span class="imgwrapper">
+                                <span class="card-gradient"></span>
+                                <img src="./assets/img/card3.jpg" alt="" />
+                            </span>
+                        </div>
+                        <div class="video-card">
+                            <div class="video-card-text">
+                                <p>Brading, UI/UX</p>
+                                <h3>Foodles</h3>
+                            </div>
+                            <span class="imgwrapper">
+                                <span class="card-gradient"></span>
+                                <img src="./assets/img/card4.jpg" alt="" />
+                            </span>
+                        </div>
+                        <div class="video-card">
+                            <div class="video-card-text">
+                                <p>Brading, UI/UX</p>
+                                <h3>Foodles</h3>
+                            </div>
+                            <span class="imgwrapper">
+                                <span class="card-gradient"></span>
+                                <img src="./assets/img/card4.jpg" alt="" />
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Video cards section end -->
+
+        <!-- Our Client section beginning -->
+        <div class="client-section">
+            <div class="container">
+                <div class="our-client-title">
+                    <img src="./assets/img/explosion.svg" alt="">
+                    <h2>we are <span class="text-gradient">aloomic</span></h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus
+                        venenatis,
+                        lectus magna fringilla urna, porttitor rhoncus dolor</p>
+                </div>
+                <div class="our-clients">
+                    <div class="our-clients-pre">
+                        <img src="./assets/img/clients/1.svg" alt="" />
+                        <img src="./assets/img/clients/2.svg" alt="" />
+                        <img src="./assets/img/clients/1.svg" alt="" />
+                        <img src="./assets/img/clients/3.svg" alt="" />
+                    </div>
+                    <button class="client-explain">See all clients</button>
+                    <div class="our-clients-pre hidden" id="clients-explain">
+                        <img src="./assets/img/clients/1.svg" alt="" />
+                        <img src="./assets/img/clients/2.svg" alt="" />
+                        <img src="./assets/img/clients/1.svg" alt="" />
+                        <img src="./assets/img/clients/1.svg" alt="" />
+                        <img src="./assets/img/clients/2.svg" alt="" />
+                        <img src="./assets/img/clients/1.svg" alt="" />
+                        <img src="./assets/img/clients/3.svg" alt="" />
+                        <img src="./assets/img/clients/1.svg" alt="" />
+                        <img src="./assets/img/clients/3.svg" alt="" />
+                        <img src="./assets/img/clients/1.svg" alt="" />
+                        <img src="./assets/img/clients/2.svg" alt="" />
+                        <img src="./assets/img/clients/3.svg" alt="" />
+                    </div>
+                    <button class="client-explain hidden">Collapse</button>
+                </div>
+            </div>
+        </div>
+        <!-- Our Client section end -->
+
+        <!-- What we do beginning -->
+        <div class="what-we-do">
+            <div class="container">
+                <div class="section-title">
+                    <h2 class="text-2">
+                        <span>
+                            <img src="./assets/img/explosion.svg" alt="">
+                        </span> what we do
+                    </h2>
+                    <h2 class="text-2 text-gradient">and love</h2>
+                </div>
+                <!-- Custom slide beginning -->
+                <!-- Custom slide end -->
+
+
+
+            </div>
+                            <!-- ////////////////////////////// -->
+
+                <div class="mmmm">
+                    <div class="slide-cards-control">
+                        <button id="right-arrow">
+                            <img src="./assets/img/icons/arrow.svg" alt="" />
+                        </button>
+                        <button id="left-arrow">
+                            <img src="./assets/img/icons/arrow.svg" alt="" />
+                        </button>
+                    </div>
+
+                    <div class="swiper mySwiper ">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="slide-image-wrapper">
+                                    <img src="./assets/img/slide/test1.jpg">
+                                </div>
+                                <div class="slide-text-wrapper">
+                                    <h2 class="current-title">Branding</h2>
+                                    <p class="current-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                                        ut aliquam, purus sit
+                                        amet
+                                        luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="slide-image-wrapper">
+                                    <img src="./assets/img/slide/test2.jpg">
+                                </div>
+                                <div class="slide-text-wrapper">
+                                    <h2 class="current-title">Web Development</h2>
+                                    <p class="current-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                                        ut aliquam, purus sit
+                                        amet
+                                        luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="slide-image-wrapper">
+                                    <img src="./assets/img/slide/test3.jpg">
+                                </div>
+                                <div class="slide-text-wrapper">
+                                    <h2 class="current-title">Web Design by Platform</h2>
+                                    <p class="current-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                                        ut aliquam, purus sit
+                                        amet
+                                        luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="slide-image-wrapper">
+                                    <img src="./assets/img/slide/test1.jpg">
+                                </div>
+                                <div class="slide-text-wrapper">
+                                    <h2 class="current-title">Mobile Application Development</h2>
+                                    <p class="current-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                                        ut aliquam, purus sit
+                                        amet
+                                        luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="slide-image-wrapper">
+                                    <img src="./assets/img/slide/test2.jpg">
+                                </div>
+                                <div class="slide-text-wrapper">
+                                    <h2 class="current-title">Design and UI/UX</h2>
+                                    <p class="current-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                                        ut aliquam, purus sit
+                                        amet
+                                        luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="slide-image-wrapper">
+                                    <img src="./assets/img/slide/test3.jpg">
+                                </div>
+                                <div class="slide-text-wrapper">
+                                    <h2 class="current-title">Digital Marketing</h2>
+                                    <p class="current-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                                        ut aliquam, purus sit
+                                        amet
+                                        luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="slide-image-wrapper">
+                                    <img src="./assets/img/slide/test1.jpg">
+                                </div>
+                                <div class="slide-text-wrapper">
+                                    <h2 class="current-title">Support maintenance</h2>
+                                    <p class="current-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                                        ut aliquam, purus sit
+                                        amet
+                                        luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="slide-image-wrapper">
+                                    <img src="./assets/img/slide/test2.jpg">
+                                </div>
+                                <div class="slide-text-wrapper">
+                                    <h2 class="current-title">Augmented maintenance</h2>
+                                    <p class="current-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                                        ut aliquam, purus sit
+                                        amet
+                                        luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor
+                                    </p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+                <!-- ////////////////////////////// -->
+        </div>
+        <!-- What we do end -->
+        <!-- What we love beginning -->
+        <div class="we-love">
+            <div class="container">
+                <div class="border-word">
+                    <h2>Creative</h2>
+                </div>
+                <div class="tip-photo tip-photo1">
+                    <img src="./assets/img/thumb1.jpg" />
+                </div>
+                <div class="border-word">
+                    <h2>better</h2>
+                </div>
+                <div class="border-word">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus
+                        venenatis, lectus
+                    </p>
+                </div>
+                <div class="tip-photo tip-photo2">
+                    <img src="./assets/img/thumb2.jpg" />
+                </div>
+                <div class="border-word">
+                    <h2>reasonable</h2>
+                </div>
+                <div class="border-word">
+                    <h2 class="star-mark">*</h2>
+                </div>
+                <div class="border-word">
+                    <h2>for</h2>
+                </div>
+                <div class="tip-photo tip-photo3">
+                    <img src="./assets/img/image3.jpg" />
+                </div>
+                <div class="border-word border-word-e">
+                    <h2>every business.</h2>
+                </div>
+            </div>
+        </div>
+        <!-- What we love end -->
+        <!-- Client review beginning -->
+        <div class="clients-review">
+            <div class="container">
+                <img src="./assets/img/explosion.svg" alt="" />
+                <h2>What our</h2>
+                <h2 class="text-gradient">clients say</h2>
+
+                <div id="slider-reviews">
+                    <button class="control_next">
+                        <svg width="17" height="28" viewBox="0 0 17 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M2.00006 2L14.0001 14L2.00006 26" stroke="white" stroke-opacity="0.4"
+                                stroke-width="4" />
+                        </svg>
+                    </button>
+                    <button class="control_prev">
+                        <svg width="17" height="28" viewBox="0 0 17 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M15.2 26L3.19995 14L15.2 2" stroke="white" stroke-opacity="0.4" stroke-width="4" />
+                        </svg>
+                    </button>
+                    <ul>
+                        <li>
+                            <p>“In fact, whenever you must learn a new skill or alter your career path later in life,
+                                you reconnect with that youthful, adventurous part of yourself.a”</p>
+                            <h5>Domingo Menenses</h5>
+                            <h6>Cobrand - CEO</h6>
+                        </li>
+                        <li>
+                            <p>“In fact, whenever you must learn a new skill or alter your career path later in life,
+                                you reconnect with that youthful, adventurous part of yourself.b”</p>
+                            <h5>Domingo Menenses</h5>
+                            <h6>Cobrand - CEO</h6>
+                        </li>
+                        <li>
+                            <p>“In fact, whenever you must learn a new skill or alter your career path later in life,
+                                you reconnect with that youthful, adventurous part of yourself.c”</p>
+                            <h5>Domingo Menenses</h5>
+                            <h6>Cobrand - CEO</h6>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- Client review end -->
+
+        <!-- Check our blogs beginning -->
+        <div class="check-bolg-section">
+            <div class="container">
+                <div class="section-title">
+                    <h2 class="text-2">
+                        <span>
+                            <img src="./assets/img/explosion.svg" alt="">
+                        </span> Check out
+                    </h2>
+                    <h2 class="text-2 text-gradient">our blogs</h2>
+                    <svg width="72" height="28" viewBox="0 0 72 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M70.75 12.67H67.79C60.32 11.76 54.58 6.77 54.58 0.75C54.58 0.34 54.24 0 53.83 0C53.42 0 53.08 0.34 53.08 0.75C53.08 5.89 56.7 10.36 62.03 12.67H8.47C13.8 10.36 17.42 5.89 17.42 0.75C17.42 0.34 17.08 0 16.67 0C16.26 0 15.92 0.34 15.92 0.75C15.92 6.76 10.19 11.75 2.72 12.67H0.75C0.58 12.67 0.43 12.74 0.3 12.83C0.28 12.83 0.26 12.83 0.25 12.83V12.86C0.1 13.01 0 13.2 0 13.42C0 13.64 0.1 13.83 0.25 13.97V14.33C8.89 14.33 15.92 19.75 15.92 26.41C15.92 26.82 16.26 27.16 16.67 27.16C17.08 27.16 17.42 26.82 17.42 26.41C17.42 21.01 13.42 16.35 7.64 14.16H62.86C57.09 16.35 53.09 21.01 53.09 26.41C53.09 26.82 53.43 27.16 53.84 27.16C54.25 27.16 54.59 26.82 54.59 26.41C54.59 19.75 61.62 14.33 70.26 14.33V14.17H70.76C71.17 14.17 71.51 13.83 71.51 13.42C71.51 13.01 71.16 12.67 70.75 12.67Z"
+                            fill="white" />
+                    </svg>
+                </div>
+
+                <!-- Blog slide beginning -->
+                <div id="slides1">
+                    <div class="slide-img slide">
+                        <img src="./assets/img/thumb1.jpg">
+                    </div>
+                    <div class="slide-img slide">
+                        <a class="spin-link" href="#">
+                            Learn more
+                        </a>
+
+                        <img src="./assets/img/image2.jpg">
+                    </div>
+                    <div class="slide-img slide">
+                        <a class="spin-link" href="#">
+                            Learn more
+                        </a>
+                        <img src="./assets/img/image3.jpg">
+                    </div>
+                </div>
+                <!-- Blog slide end -->
+            </div>
+        </div>
+        <!-- Check our blogs end -->
+        <!-- Input box begin -->
+        <div class="input-panel">
+            <div class="container">
+                <h1>
+                    <span>
+                        <img src="./assets/img/explosion.svg" alt="">
+                    </span>
+                    lets speak
+                </h1>
+                <h1 class="text-gradient">
+                    fill this form
+                </h1>
+                <div class="input-section">
+                    <input type="text" placeholder="your name">
+                    <span>
+                        <img src="./assets/img/right_arrow.svg">
+                    </span>
+                </div>
+                
+            </div>
+            <div class="stick-note v-text">
+                <span>Made with</span>
+                <span><i class="fa-heart fa"></i></span>
+            </div>
+
+        </div>
+        <div class="floating-panel">
+            <div class="">
+                <marquee behavior="scroll" direction="left" scrollamount="5" scrolldelay=0 style="position: relative;">
+                    <span>lets work together</span>
+                    <span class="spot"></span>
+                    <span>lets work together</span>
+                </marquee>
+            </div>
+
+        </div>
+    </div>
+    <footer>
+        <div class="">
+            <div class="footer">
+                <div class="footer-section1">
+                    <div class="icon-wrapper">
+                        <img src="./assets/img/icon.png">
+                    </div>
+                    <div class="navigation-wrapper">
+                        <div class="list">
+                            <a>
+                                Navigation
+                            </a>
+                            <a href="./index.html">
+                                Home
+                            </a>
+                            <a href="./about.html">
+                                About
+                            </a>
+                            <a href="./services.html">
+                                Services
+                            </a>
+                            <a href="./blog.html">
+                                Blog
+                            </a>
+                            <a href="./contact.html">
+                                Contact
+                            </a>
+                        </div>
+                    </div>
+                    <div class="contact-wrapper">
+                        <div class="list">
+                            <a>
+                                Tell us your needs
+                            </a>
+                            <a href="#">
+                                email@gmail.com
+                            </a>
+                            <a href="#">
+                                +7 (916) 344-55-22
+                            </a>
+                            <a href="#">
+                                New York 11223
+                                <br />USA, NY
+                            </a>
+                        </div>
+                    </div>
+                    <div class="services-wrapper">
+                        <div class="list">
+                            <a>Services</a>
+                            <a href="./services.html">Web Development</a>
+                            <a href="./services.html">Web Design by Platform</a>
+                            <a href="./services.html">Mobile Application Development</a>
+                            <a href="./services.html">Branding</a>
+                            <a href="./services.html">Digital Marketing</a>
+                            <a href="./services.html">Design and UI/UX</a>
+                            <a href="./services.html">Augmented Reality</a>
+                            <a href="./services.html">Support and maintenance</a>
+                        </div>
+                    </div>
+                    <div class="email-input-wrapper">
+                        <p>Sign up to newsletter</p>
+                        <div class="input-section">
+
+                            <input type="email" placeholder="YOUR EMAIL">
+                            <span>
+                                <img src="./assets/img/right_arrow.svg">
+                            </span>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="footer-section2">
+                    <div class="section1">
+                        <span><a href="#">Behance</a></span>
+                        <span><a href="#">Dribble</a></span>
+                        <span><a href="#">Pinterest</a></span>
+                    </div>
+                    <div class="section2">
+                        <span><a href="#">terms</a></span>
+                        <span><a href="#">privacy</a></span>
+                        <span><a href="#">policy</a></span>
+                    </div>
+                    <div class="section3">
+                        <span>copyright 2021</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+    <span id="device-ruler"></span>
+    <!-- Main contents end -->
+</body>
+<!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="./assets/js/gsap.min.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<!-- <script type="text/javascript" src="./assets/js/slide.js"></script> -->
+<script type="text/javascript" src="./assets/js/function.js"></script>
+<script type="text/javascript" src="./assets/js/backgroundColor.js"></script>
+
+</html>

@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Aloomic</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/basic.css">
+    <link rel="stylesheet" href="./assets/css/slide.css">
+    <link rel="alternate icon" type="image/png" href="./assets/img/icons/favicon.ico">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link href="./assets/css/hamburgers.min.css" rel="stylesheet">
+    <!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&callback=initMap&libraries=&v=weekly" async></script> -->
+    <script src="./assets/js/jssor.slider-28.1.0.min.js" type="text/javascript"></script>
+
+    <!-- <script type="text/javascript" src="./assets/js/slide.js"></script> -->
+    <script type="text/javascript" src="./assets/js/function.js"></script>
+    <script type="text/javascript" src="./assets/js/customJssorSlider.js"></script>
+</head>
+
+<body>
+    <!-- Header beginning -->
+    <header>
+        <div class="">
+            <div class="display-center header-content">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="./assets/img/logo.png" alt="logo">
+                    </a>
+                </div>
+                <div class="menu-icon">
+                    <!-- <button class="menu-button">
+                        <img src="./assets/img/icons/hamberger.svg" alt="">
+                    </button> -->
+                    <button class="hamburger hamburger--emphatic js-hamburger menu-button">
+                        <span class="hamburger-box">
+                            <span class="hamburger-inner"></span>
+                        </span>
+                    </button>
+                </div>
+                <!-- Nav Header beginning -->
+                <div class="nav-menu">
+                    <!-- <div class="">
+                        <div class="display-center header-content">
+                            <div class="logo">
+                                <a href="index.html">
+                                    <img src="./assets/img/logo.png" alt="logo">
+                                </a>
+                            </div>
+                            <div class="menu-icon">
+                                <button class="menu-button">
+                                    <img src="./assets/img/icons/close.svg" alt="">
+                                </button>
+                            </div>
+                        </div>
+                    </div> -->
+                    <!-- Nav Header content beginning -->
+                    <div class="nav-content container" id="main-menu">
+                        <div class="nav-item">
+                            <a href="index.html"><span>home</span></a>
+                            <div class="menu-thumb hidden">
+                                <img src="./assets/img/thumb1.jpg" alt="" />
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet
+                                    luctus venenatis, lectus magna fringilla urnaffff</p>
+                            </div>
+                        </div>
+                        <div class="nav-item">
+                            <a href="#" id="we-do-menu"><span>what we do</span></a>
+                            <div class="menu-thumb hidden">
+                                <img src="./assets/img/thumb2.jpg" alt="" />
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet
+                                    luctus venenatis, lectus magna fringilla urna</p>
+                            </div>
+                        </div>
+                        <div class="nav-item">
+                            <a href="about.html"><span>about</span></a>
+                            <div class="menu-thumb hidden">
+                                <img src="./assets/img/thumb3.jpg" alt="" />
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet
+                                    luctus venenatis, lectus magna fringilla urna</p>
+                            </div>
+                        </div>
+                        <div class="nav-item">
+                            <a href="portfolio.html"><span>portfolio</span></a>
+                            <div class="menu-thumb hidden">
+                                <img src="./assets/img/thumb1.jpg" alt="" />
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet
+                                    luctus venenatis, lectus magna fringilla urna</p>
+                            </div>
+                        </div>
+                        <div class="nav-item">
+                            <a href="blog.html"><span>blog</span></a>
+                            <div class="menu-thumb hidden">
+                                <img src="./assets/img/thumb2.jpg" alt="" />
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet
+                                    luctus venenatis, lectus magna fringilla urna</p>
+                            </div>
+                        </div>
+                        <div class="nav-item">
+                            <a href="contact.html"><span>contact</span></a>
+                            <div class="menu-thumb hidden">
+                                <img src="./assets/img/thumb3.jpg" alt="" />
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet
+                                    luctus venenatis, lectus magna fringilla urna</p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="nav-content container hidden" id="we-do-submenu">
+                        <div class="nav-item">
+                            <a href="#" class="back-to-mainmenu">
+                                <span>
+                                    <img src="./assets/img/left_arrow.svg" alt="close submenu">
+                                </span>
+                            </a>
+                            <a href="#" class="back-to-mainmenu">
+                                <span>back</span>
+                            </a>
+                        </div>
+                        <div class="nav-item">
+                            <a href="wedo.html">
+                                <span>Branding</span>
+                            </a>
+                            <a href="wedo.html">
+                                <span>Design and UI/UX</span>
+                            </a>
+                        </div>
+                        <div class="nav-item">
+                            <a href="wedo.html">
+                                <span>Web Development</span>
+                            </a>
+                            <a href="wedo.html">
+                                <span>Digital Marketing</span>
+                            </a>
+                        </div>
+                        <div class="nav-item">
+                            <a href="wedo.html">
+                                <span>Web Design by Platform</span>
+                            </a>
+                            <a href="wedo.html">
+                                <span>Support maintenance</span>
+                            </a>
+                        </div>
+                        <div class="nav-item">
+                            <a href="wedo.html">
+                                <span>Mobile Application Development</span>
+                            </a>
+                            <a href="wedo.html">
+                                <span>Augmented maintenance</span>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Nav Header content end-->
+                </div>
+                <!-- Nav Header end -->
+            </div>
+        </div>
+    </header>
+    <!-- Header End -->
+
+    <!-- Main contents beginning -->
+    <div class="full-screen">
+        <!-- Home banner beginning -->
+        <div class="home-banner" style="padding-top: 230px;padding-bottom: 215px;">
+            <div class="container">
+                <h1 class="text-1">
+                    <span class="explosion-icon">
+                        <img src="./assets/img/explosion.svg" alt="">
+                    </span> ABOUT OUR
+                </h1>
+                <h1 class="text-1-italic p-l-10">COMPANY</h1>
+                <div class="company-detail">
+                    <div class="company-detail-text1">
+                        Our mission is dolor sit amet,
+                        <span>onsectetur adipiscing </span>
+                        elit ut aliquam, purus sit<br />
+                        <span>amet luctus</span>
+                    </div>
+                    <div class="company-detail-text2">
+                        <div class="company-detail2">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus
+                            venenatis, lectus magna fringilla urna, porttitor rhoncus dolor
+                        </div>
+                        <div class="company-img">
+                            <img src="./assets/img/company-detail.jpg">
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <!-- Home banner end -->
+        <div class="bestwork-section">
+            <div class="container">
+                <!-- <div class="bestwork-slider">
+                    <ul class="bestwork-slides">
+                        <li class="slide">
+                            <img src="./assets/img/bestwork1.jpg" />
+                            <img src="./assets/img/bestwork2.jpg" />
+                            <p class="detail-txt">
+                                <span>
+                                    The <br />Best works &nbsp;&nbsp;*
+                                </span>
+                                <span>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet
+                                    luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor
+                                </span>
+                            </p>
+                        </li>
+
+
+                    </ul>
+                </div> -->
+
+                <!-- slider -->
+                <div id="jssor_1"
+                    style="position:relative;margin:0 auto;top:0px;left:0px;width:1040px;height:660px;overflow:hidden;visibility:hidden;">
+                    <!-- Loading Screen -->
+                    <div data-u="loading"
+                        style="position:absolute;top:0px;left:0px;width:100%;height:100%;text-align:center;background-position:50% 50%;background-repeat:no-repeat;background-image:url('./assets/img/svg/infinite.svg');background-color:rgba(0, 0, 0, 0.7);background-size:45px 45px;">
+                    </div>
+                    <div data-u="slides"
+                        style="cursor:default;position:relative;top:0px;left:0px;width:1040px;height:660px;overflow:hidden;">
+                        <div style="background-color:#000000;" data-p="850">
+                            <img data-to="50% 50%" data-t="0"
+                                style="left:-1040px;top:0px;width:823px;height:385px;position:absolute;max-width:823px;"
+                                src="./assets/img/bestwork1.jpg" />
+                            <img data-to="50% 50%" data-t="1"
+                                style="left:0px;top:677px;width:385px;height:494px;position:absolute;max-width:385px;"
+                                src="./assets/img/bestwork2.jpg" />
+                            <div data-to="50% 50%" data-t="2"
+                                style="left:1736px;top:5px;width:129px;height:81px;position:absolute;color:#000000;font-size:32px;line-height:1.2;text-align:center;">
+                                <span style="font-family: &quot;Playfair Display&quot;;font-size:72px;color:white;line-height: 96px;font-style: normal;font-weight: normal;
+            ">The</span></div>
+                            <div data-to="50% 50%" data-t="3"
+                                style="left:1699px;top:-13px;width:445px;height:128px;position:absolute;color:#000000;font-size:32px;line-height:1.2;text-align:center;">
+                                <span style="font-family: 'Playfair Display'; font-style: normal;
+            font-weight: normal;
+            font-size: 72px;
+            line-height: 96px;
+            text-align: right;color: white;">Best works&nbsp;&nbsp;*</span></div>
+                            <div data-to="50% 50%" data-t="4"
+                                style="left:1188px;top:1309px;width:362px;height:125px;position:absolute;color:#000000;font-size:32px;line-height:1.2;text-align:left;">
+                                <span
+                                    style="font-family: 'Epilogue'; font-style: normal; font-weight: normal; font-size: 16px; line-height: 24px; color: #FFFFFF; text-align: left;">Lorem
+                                    ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus
+                                    venenatis, lectus magna fringilla urna, porttitor rhoncus dolor</span></div>
+                        </div>
+                        <div style="background-color:#000000;" data-p="850">
+                            <img data-to="50% 50%" data-t="5"
+                                style="left:-1040px;top:0px;width:823px;height:385px;position:absolute;max-width:823px;"
+                                src="./assets/img/bestwork1.jpg" />
+                            <img data-to="50% 50%" data-t="6"
+                                style="left:0px;top:677px;width:385px;height:494px;position:absolute;max-width:385px;"
+                                src="./assets/img/bestwork2.jpg" />
+                            <div data-to="50% 50%" data-t="7"
+                                style="left:1736px;top:5px;width:129px;height:81px;position:absolute;color:#000000;font-size:32px;line-height:1.2;text-align:center;">
+                                <span style="font-family: &quot;Playfair Display&quot;;font-size:72px;color:white;line-height: 96px;font-style: normal;font-weight: normal;
+            ">The</span></div>
+                            <div data-to="50% 50%" data-t="8"
+                                style="left:1699px;top:-13px;width:445px;height:128px;position:absolute;color:#000000;font-size:32px;line-height:1.2;text-align:center;">
+                                <span style="font-family: 'Playfair Display'; font-style: normal;
+            font-weight: normal;
+            font-size: 72px;
+            line-height: 96px;
+            text-align: right;color: white;">Best works&nbsp;&nbsp;*</span></div>
+                            <div data-to="50% 50%" data-t="9"
+                                style="left:1188px;top:1309px;width:362px;height:125px;position:absolute;color:#000000;font-size:32px;line-height:1.2;text-align:left;">
+                                <span
+                                    style="font-family: 'Epilogue'; font-style: normal; font-weight: normal; font-size: 16px; line-height: 24px; color: #FFFFFF; text-align: left;">Lorem
+                                    ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus
+                                    venenatis, lectus magna fringilla urna, porttitor rhoncus dolor</span></div>
+                        </div>
+                        <div style="background-color:#000000;" data-p="850">
+                            <img data-to="50% 50%" data-t="10"
+                                style="left:-1040px;top:0px;width:823px;height:385px;position:absolute;max-width:823px;"
+                                src="./assets/img/bestwork1.jpg" />
+                            <img data-to="50% 50%" data-t="11"
+                                style="left:0px;top:677px;width:385px;height:494px;position:absolute;max-width:385px;"
+                                src="./assets/img/bestwork2.jpg" />
+                            <div data-to="50% 50%" data-t="12"
+                                style="left:1736px;top:5px;width:129px;height:81px;position:absolute;color:#000000;font-size:32px;line-height:1.2;text-align:center;">
+                                <span style="font-family: &quot;Playfair Display&quot;;font-size:72px;color:white;line-height: 96px;font-style: normal;font-weight: normal;
+            ">The</span></div>
+                            <div data-to="50% 50%" data-t="13"
+                                style="left:1699px;top:-13px;width:445px;height:128px;position:absolute;color:#000000;font-size:32px;line-height:1.2;text-align:center;">
+                                <span style="font-family: 'Playfair Display'; font-style: normal;
+            font-weight: normal;
+            font-size: 72px;
+            line-height: 96px;
+            text-align: right;color: white;">Best works&nbsp;&nbsp;*</span></div>
+                            <div data-to="50% 50%" data-t="14"
+                                style="left:1188px;top:1309px;width:362px;height:125px;position:absolute;color:#000000;font-size:32px;line-height:1.2;text-align:left;">
+                                <span
+                                    style="font-family: 'Epilogue'; font-style: normal; font-weight: normal; font-size: 16px; line-height: 24px; color: #FFFFFF; text-align: left;">Lorem
+                                    ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus
+                                    venenatis, lectus magna fringilla urna, porttitor rhoncus dolor</span></div>
+                        </div>
+                    </div><a data-scale="0" href="https://www.jssor.com" style="display:none;position:absolute;">slider
+                        html</a>
+                    <!-- Arrow Navigator -->
+                    <div data-u="arrowleft" class="jssora104" style="width:26px;height:26px;left:492px;bottom:0px;"
+                        data-scale="0.75">
+                        <svg viewbox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+                            <circle class="c" cx="8000" cy="8000" r="6240"></circle>
+                            <path class="a"
+                                d="M5738.1,7867.2l2689.6-2689.5c38.5-38.4,82.8-57.8,132.8-57.8c50,0,94.3,19.3,132.8,57.8l288.5,288.6 c38.5,38.5,57.7,82.7,57.7,132.8c0,50.1-19.2,94.3-57.7,132.8L6713.5,8000.1l2268.2,2268.3c38.5,38.5,57.7,82.7,57.7,132.7 c0,50.1-19.2,94.3-57.7,132.8l-288.5,288.5c-38.5,38.5-82.7,57.7-132.8,57.7c-50,0-94.3-19.2-132.8-57.7L5738.2,8132.8 c-38.4-38.4-57.7-82.7-57.7-132.8S5699.6,7905.8,5738.1,7867.2z">
+                            </path>
+                        </svg>
+                    </div>
+                    <div data-u="arrowright" class="jssora104" style="width:26px;height:26px;right:492px;bottom:0px;"
+                        data-scale="0.75">
+                        <svg viewbox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+                            <circle class="c" cx="8000" cy="8000" r="6240"></circle>
+                            <path class="a"
+                                d="M10261.9,7867.2L7572.3,5177.8c-38.5-38.4-82.8-57.8-132.8-57.8c-50,0-94.3,19.3-132.8,57.8l-288.5,288.6 c-38.5,38.5-57.7,82.7-57.7,132.8c0,50.1,19.2,94.3,57.7,132.8l2268.2,2268.2l-2268.2,2268.3c-38.5,38.5-57.7,82.7-57.7,132.7 c0,50.1,19.2,94.3,57.7,132.8l288.5,288.5c38.5,38.5,82.7,57.7,132.8,57.7c50,0,94.3-19.2,132.8-57.7l2689.5-2689.5 c38.4-38.4,57.7-82.7,57.7-132.8S10300.4,7905.8,10261.9,7867.2z">
+                            </path>
+                        </svg>
+                    </div>
+                </div>
+                <div class="bestwork-slide-buttons">
+                    <button type="button" class="bestwork-slide-btn">
+                        <span class="bestwork-prev">
+                            <img src="./assets/img/icons/bestwork-prev.svg">
+                        </span>
+                    </button>
+                    <button type="button" class="bestwork-slide-btn">
+                        <span class="bestwork-next">
+                            <img src="./assets/img/icons/bestwork-next.svg">
+                        </span>
+                    </button>
+                </div>
+
+            </div>
+        </div>
+        <!-- member blog beginning -->
+        <div class="member-panel">
+            <div class="container">
+                <div class="member-cardbox">
+                    <div class="member-card">
+                        <div class="member-avatar">
+                            <img src="./assets/img/face1.png">
+                        </div>
+                        <div class="member-detail">
+                            <span class="member-name">
+                                Eveline<br>
+                                Gerand,
+                            </span>
+                            <p class="member-pos">
+                                Founder
+                            </p>
+                            <p class="member-etc">
+                                <span>28 y.o.</span>
+                                <span>England</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="member-card">
+                        <div class="member-avatar">
+                            <img src="./assets/img/face2.png">
+                        </div>
+                        <div class="member-detail">
+                            <span class="member-name">
+                                Kitani<br>
+                                Sarasvati,
+                            </span>
+                            <p class="member-pos">
+                                Photo Director
+                            </p>
+                            <p class="member-etc">
+                                <span>28 y.o.</span>
+                                <span>Maldives</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="member-card">
+                        <div class="member-avatar">
+                            <!-- <img src="./assets/img/face1.png"> -->
+                        </div>
+                        <div class="member-detail">
+                            <span class="member-name">
+                                Sarah<br>
+                                Yeon,
+                            </span>
+                            <p class="member-pos">
+                                Producer
+                            </p>
+                            <p class="member-etc">
+                                <span>25 y.o.</span>
+                                <span>New York</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- What we do beginning -->
+        <div class="what-we-do" style="padding-top:50px;">
+            <div class="container">
+                <div class="section-title">
+                    <h2 class="text-2">
+                        <span>
+                            <img src="./assets/img/explosion.svg" alt="">
+                        </span> what we do
+                    </h2>
+                    <h2 class="text-2 text-gradient">and love</h2>
+                </div>
+                <!-- Custom slide beginning -->
+                <!-- Custom slide end -->
+                <div class="slide-1">
+                    <div class="slide-cards-control">
+                        <button id="right-arrow">
+                            <img src="./assets/img/icons/arrow.svg" alt="" />
+                        </button>
+                        <button id="left-arrow">
+                            <img src="./assets/img/icons/arrow.svg" alt="" />
+                        </button>
+                    </div>
+                    <div class="slide-cards">
+                        <div class="slide-item">
+                            <span class="slide-item-mask"></span>
+                            <img src="./assets//img/slide/1.jpg" alt="">
+                            <div class="slide-item-content">
+                                <h2>web design</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet
+                                    luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor</p>
+                            </div>
+                        </div>
+                        <div class="slide-item">
+                            <span class="slide-item-mask"></span>
+                            <img src="./assets//img/slide/2.jpg" alt="">
+                            <div class="slide-item-content">
+                                <h2>UI/UX design</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet
+                                    luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor</p>
+                            </div>
+                        </div>
+                        <div class="slide-item">
+                            <span class="slide-item-mask"></span>
+                            <img src="./assets//img/slide/1.jpg" alt="">
+                            <div class="slide-item-content">
+                                <h2>web design</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet
+                                    luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor</p>
+                            </div>
+                        </div>
+                        <div class="slide-item">
+                            <span class="slide-item-mask"></span>
+                            <img src="./assets//img/slide/2.jpg" alt="">
+                            <div class="slide-item-content">
+                                <h2>UI/UX design</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet
+                                    luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor</p>
+                            </div>
+                        </div>
+                        <div class="slide-item">
+                            <span class="slide-item-mask"></span>
+                            <img src="./assets//img/slide/2.jpg" alt="">
+                            <div class="slide-item-content">
+                                <h2>UI/UX design</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet
+                                    luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- What we do end -->
+        <!-- we create section beginning -->
+        <div class="we-create">
+            <div class="container">
+                <div class="create-title">
+                    <!-- <img src="./assets/img/we-create.png"> -->
+                    <!-- <img src="./assets/img/we-create1.jpg">
+                    <img src="./assets/img/we-create2.jpg"> -->
+                    <p>
+                        we create<br />
+                        beautiful things
+                    </p>
+                    <div class="create-panel">
+                        <span>*</span>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus
+                            venenatis, lectus magna fringilla urna, porttitor rhoncus dolor lorem ipsum dolor sit amet,
+                            consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna
+                            fringilla
+                            urna, porttitor rhoncus dolor</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus
+                            venenatis, lectus magna fringilla urna, porttitor rhoncus dolor lorem ipsum dolor sit amet,
+                            consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna
+                            fringilla
+                            urna, porttitor rhoncus dolor</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        <!-- What we love beginning -->
+        <div class="we-love" style="padding-bottom:0;">
+            <div class="container">
+                <div class="border-word">
+                    <h2>Creative</h2>
+                </div>
+                <div class="tip-photo tip-photo1">
+                    <img src="./assets/img/thumb1.jpg" />
+                </div>
+                <div class="border-word">
+                    <h2>better</h2>
+                </div>
+                <div class="border-word">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus
+                        venenatis, lectus
+                    </p>
+                </div>
+                <div class="tip-photo tip-photo2">
+                    <img src="./assets/img/thumb2.jpg" />
+                </div>
+                <div class="border-word">
+                    <h2>reasonable</h2>
+                </div>
+                <div class="border-word">
+                    <h2 class="star-mark">*</h2>
+                </div>
+                <div class="border-word">
+                    <h2>for</h2>
+                </div>
+                <div class="tip-photo tip-photo3">
+                    <img src="./assets/img/image3.jpg" />
+                </div>
+                <div class="border-word border-word-e">
+                    <h2>every business.</h2>
+                </div>
+            </div>
+        </div>
+        <!-- What we love end -->
+        <div class="contact-panel" style="padding-bottom: 174px;">
+            <!-- google map panel beginning -->
+            <!-- <div id="map"></div> -->
+            <div class="contact-panel-content">
+                <div class="contact-info-wrapper">
+                    <div class="contact-item">
+                        <span>find us here</span>
+                        <span>New York 11223</span>
+                        <span>USA, NY</span>
+                    </div>
+                    <div class="contact-item">
+                        <span>our email</span>
+                        <span>email@gmail.com</span>
+
+                    </div>
+                    <div class="contact-item">
+                        <span>our email</span>
+                        <span>+7(916)344-55-22</span>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="floating-panel">
+            <div class="">
+                <marquee behavior="scroll" direction="left" scrollamount="5" scrolldelay=0 style="position: relative;">
+                    <span>lets work together</span>
+                    <span class="spot"></span>
+                    <span>lets work together</span>
+                </marquee>
+            </div>
+
+        </div>
+    </div>
+    <footer>
+        <div class="">
+            <div class="footer">
+                <div class="footer-section1">
+                    <div class="icon-wrapper">
+                        <img src="./assets/img/icon.png">
+                    </div>
+                    <div class="navigation-wrapper">
+                        <div class="list">
+                            <a>
+                                Navigation
+                            </a>
+                            <a href="./index.html">
+                                Home
+                            </a>
+                            <a href="./about.html">
+                                About
+                            </a>
+                            <a href="./services.html">
+                                Services
+                            </a>
+                            <a href="./blog.html">
+                                Blog
+                            </a>
+                            <a href="./contact.html">
+                                Contact
+                            </a>
+                        </div>
+                    </div>
+                    <div class="contact-wrapper">
+                        <div class="list">
+                            <a>
+                                Tell us your needs
+                            </a>
+                            <a href="#">
+                                email@gmail.com
+                            </a>
+                            <a href="#">
+                                +7 (916) 344-55-22
+                            </a>
+                            <a href="#">
+                                New York 11223
+                                <br />USA, NY
+                            </a>
+                        </div>
+                    </div>
+                    <div class="services-wrapper">
+                        <div class="list">
+                            <a>Services</a>
+                            <a href="./services.html">Web Development</a>
+                            <a href="./services.html">Web Design by Platform</a>
+                            <a href="./services.html">Mobile Application Development</a>
+                            <a href="./services.html">Branding</a>
+                            <a href="./services.html">Digital Marketing</a>
+                            <a href="./services.html">Design and UI/UX</a>
+                            <a href="./services.html">Augmented Reality</a>
+                            <a href="./services.html">Support and maintenance</a>
+                        </div>
+                    </div>
+                    <div class="email-input-wrapper">
+                        <p>Sign up to newsletter</p>
+                        <div class="input-section">
+
+                            <input type="email" placeholder="YOUR EMAIL">
+                            <span>
+                                <img src="./assets/img/right_arrow.svg">
+                            </span>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="footer-section2">
+                    <div class="section1">
+                        <span><a href="#">Behance</a></span>
+                        <span><a href="#">Dribble</a></span>
+                        <span><a href="#">Pinterest</a></span>
+                    </div>
+                    <div class="section2">
+                        <span><a href="#">terms</a></span>
+                        <span><a href="#">privacy</a></span>
+                        <span><a href="#">policy</a></span>
+                    </div>
+                    <div class="section3">
+                        <span>copyright 2021</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+    <span id="device-ruler"></span>
+    <!-- Main contents end -->
+</body>
+
+</html>
